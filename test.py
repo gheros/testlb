@@ -12,7 +12,7 @@ app.config['MAIL_PORT'] = 25               # 邮件服务器端口
 # app.config['MAIL_USE_SSL'] = True
 # app.config['MAIL_USE_TLS'] = True        #
 app.config['MAIL_USERNAME'] = 'gheros@qq.com'
-app.config['MAIL_PASSWORD'] = 'ytjlmnq_888666'
+app.config['MAIL_PASSWORD'] = ''
 print(app.config)
 mail = Mail(app)
 # if app.config['MAIL_USE_SSl']:print('1')
